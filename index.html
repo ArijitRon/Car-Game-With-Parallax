@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+  <title>Car Racing</title>
+  <!--Bootstrap-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Exo|Audiowide" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="style/layout.css">
+  
+</head>
+<body>
+<div id="overlay">
+	<img src="img/loader.gif"/>
+</div>
+	<div class="first">	
+		<div id="welcome">Asphalt Alpha</div>
+		<img src="img/wheel1.png" alt='wheel1'/>
+		<img src="img/wheel2.png" alt='wheel2'/>
+	</div>
+	<div class="selection">
+		
+	</div> 	<div class="fourth">
+		
+	</div>
+
+	<div class="second">
+		<img src="img/cover1.jpg" alt='cover image 1' id="c1"/>
+		<img src="img/cover2.jpg" alt='cover image 2' id="c2"/>
+	</div>
+	
+	<div class="third" id="third" tabindex="1"> 
+		<figure>
+		<img src="img/car1.png" alt="car 1" id="car1">
+		<figcaption>Car1</figcaption>
+		</figure>
+		<figure>
+		<img src="img/car2.png" alt="car 2" id="car2">
+		<figcaption>Car2</figcaption>
+		</figure>
+		<div class='car_no col-md-2'>
+			<input id="carselect" type="number" class="form-control" placeholder="Select your car number" min="1" max="2" required>
+			<button id="start" type="button" class="btn btn-primary" data-dismiss="modal">Start</button>
+		</div>
+		
+	</div>
+  <!--SCRIPT-->
+<script src="script/load.js"></script>
+<script src="script/scroll.js"></script>
+
+</body>
+</html>
